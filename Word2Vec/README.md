@@ -1,6 +1,6 @@
-This is the implementation of word2vec from scratch using co-occurrence matrix.
+### Implementation of word2vec from scratch using co-occurrence matrix
 
-Steps:
+### Steps Involved:
 1. Read the filename to be processed as a command line argument along with the window size.
 2. Remove all the punctuations, change the words to lower case and get the list of all the unique words.
 3. Find the co-occurrence matrix for those unique words considering each word at the center of the window of a given size.
@@ -10,5 +10,6 @@ Steps:
 6. The U matrix from SVD is then stored as float values in the txt file.
 
 
-To run this file use:
-python Word2VecModel.py [text_file] [window_size]
+### To run this file use:
+
+`python Word2VecModel.py [text_file] [window_size]`
