@@ -1,7 +1,0 @@
-Implementation of SVM classifier with 10-fold cross-validation using n-gram as features extraction model for classification of reviews. (See the files amazon_cells_labelled.txt, imdb_labelled.txt, yelp_labelled)   
-
-Calculating 7 metrics: false positive rate, false negative rate, true positive rate, true negative rate, accuracy, precision and recall.
-
-The classifier runs with Uni-gram(F1), bi-gram(F2), tri-gram(F3), 4-gram(F4) and 5-gram(F5) representation of the reviews.
-
-Later, F1F2, F1F2F3, F1F2F3F4 and F1F2F3F4F5 representations are computed and ran SVM classifier using those representations of the same reviews.
